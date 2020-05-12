@@ -50,9 +50,11 @@ if __name__ == '__main__':
 
     #Training Network
     t0 = time.time()
+    print("Starting training process...")
     history = network.train(x, y, batch_size, epochs, shuffle=True)
 
     #Testing Network
+    print("Starting evaluation process...")
     evaluation = network.evaluate(x_test, y_test, batch_size)
     print("Total time elapsed: {} minutes".format((time.time() - t0)/60))
 
