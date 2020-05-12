@@ -1,4 +1,4 @@
-##Deep Learning Final Project
+## Deep Learning Final Project
 
 To use project make sure to:
 
@@ -6,7 +6,7 @@ To use project make sure to:
 2. If mnist.pkl is not in folder run download_mist.py 
 3. Run main.py
 #
-####Abstract
+#### <ins>Abstract</ins>
 
 This project aims to manually implement a fully-connected 
 neural network without the use of any deep learning libraries 
@@ -14,7 +14,7 @@ like Tensorflow and PyTorch. The neural network must be trained and
 evaluated using the MNIST data set while achieving an accuracy of over 90%.
 
 #
-####Example Sequential Network
+#### <ins>Example Sequential Network</ins>
 
  Below is the fully connected network I used to complete the project. 
  It had a total of 4 fully connected layers with 2 of the hidden layers being
@@ -36,7 +36,7 @@ evaluated using the MNIST data set while achieving an accuracy of over 90%.
 
 #
 
- ###Some Things I Would Like To Add
+ ### <ins>Some Things I Would Like To Add</ins>
 
 - Validation accuracy and loss data
 - Convolution layer 
